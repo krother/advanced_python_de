@@ -15,8 +15,15 @@ Inhalt
    README.md
    installation.rst
    01_python_grundlagen/README.rst
-   02_funktionen/README.rst
-   03_struktur/README.rst
+   02_struktur/README.rst
+   03_funktionen/README.rst
+   04_klassen/README.rst
+   05_generatoren/README.rst
+   06_daten_lesen_schreiben/README.rst
+   07_web_programmierung/README.rst
+   08_debugging/README.rst
+   09_testautomatisierung/README.rst
+   10_parallele_prozessierung/README.rst
    links.md
 
 
