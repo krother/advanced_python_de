@@ -1,14 +1,23 @@
-Python Grundlagen
-=================
+1. Python Grundlagen
+====================
 
-.. include:: finde_das_drachenein/drachenei.rst
+- Variablen und Namensräume
+- eingebaute Datentypen
+- Kontrollfluß
+
+Aufgabe
+-------
+
+.. toctree::
+   :maxdepth: 1
+
+   zwanzig_fragen/README.rst
 
 Links
 -----
 
 Unter folgenden Links findest du ausführliche Materialien zur Vertiefung:
 
-- [Python Basics Tutorial](https://python-basics-tutorial.readthedocs.io/de/latest/)
-- [Academis Advanced Python](https://www.academis.eu/advanced_python)
-- [Typen](https://python-basics-tutorial.readthedocs.io/de/latest/types/index.html)
-- [Kontrollfluß](https://python-basics-tutorial.readthedocs.io/de/latest/control-flows/index.html)
+- `Namensräume erkunden <https://python-basics-tutorial.readthedocs.io/de/latest/explore.html>`__
+- `Typen <https://python-basics-tutorial.readthedocs.io/de/latest/types/index.html>`__
+- `Kontrollfluß <https://python-basics-tutorial.readthedocs.io/de/latest/control-flows/index.html>`__

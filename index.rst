@@ -1,8 +1,10 @@
 
-Advanced Python
-===============
+Python für Fortgeschrittene
+===========================
 
-Kursmaterialien auf Deutsch.
+Kursmaterialien auf Deutsch
+
+.. figure:: title.png
 
 Inhalt
 ------
@@ -13,6 +15,8 @@ Inhalt
    README.md
    installation.rst
    01_python_grundlagen/README.rst
+   02_funktionen/README.rst
+   03_struktur/README.rst
    links.md
 
 

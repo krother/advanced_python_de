@@ -54,10 +54,9 @@ Beispielausgabe
 Schritt für Schritt
 -------------------
 
-Schritt 1: Erstelle einen Projektordner
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Schritt 1: Erstelle einen Python-Datei
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  Erstelle einen neuen Ordner für dieses Projekt
 -  Erstelle eine Python-Datei ``drachenei.py``
 -  Öffne die Datei in einem Editor
 
