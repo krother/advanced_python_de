@@ -1,5 +1,5 @@
 
-# Agenda
+# Kursthemen
 
 ## 1. Python Grundlagen
 
@@ -18,7 +18,7 @@
 
 1. Obligatorische und optionale Parameter
 2. Parameter mit Sternchen
-4. Globale und lokale Variablen
+3. Globale und lokale Variablen
 
 ## 4. Klassen in Python
 
@@ -48,7 +48,7 @@
 
 1. Zugriff auf Webseiten
 2. Mit REST-APIs arbeiten
-3. FastAPI Web Servers
+3. FastAPI Web Server
 
 ## 8. Debuggen und Loggen
 

@@ -25,5 +25,5 @@ Links
 
 - `Module <https://python-basics-tutorial.readthedocs.io/de/latest/modules/index.html>`__
 - `Bibliotheken <https://python-basics-tutorial.readthedocs.io/de/latest/libs/index.html>`__
-- `uv homepage <https://docs.astral.sh/uv/>'__
+- `uv Homepage <https://docs.astral.sh/uv/>`__
 - `uv im Python-Basics Tutorial <https://python-basics-tutorial.readthedocs.io/en/latest/libs/distribution.html#uv>`__
