@@ -1,10 +1,8 @@
-SQL Fundamentals
-================
 
-Material from SQL training for public use
+Advanced Python
+===============
 
-|image0|
-
+Kursmaterialien auf Deutsch.
 
 Inhalt
 ------
@@ -14,6 +12,7 @@ Inhalt
 
    README.md
    installation.rst
+   01_python_grundlagen/README.rst
    links.md
 
 
@@ -25,5 +24,3 @@ Autor
 Usable under the conditions of the Creative Commons Attribution
 Share-Alike License 4.0 (CC-BY-SA 4.0). See creativecommons.org for
 details.
-
-.. |image0| image:: images/blue_elephant.png

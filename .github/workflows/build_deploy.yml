@@ -1,9 +1,9 @@
 
-name: deploy numpy graphics
+name: deploy advpy docs
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
 
