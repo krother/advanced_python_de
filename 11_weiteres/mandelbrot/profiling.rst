@@ -30,7 +30,7 @@ Führe das Profiling erneut aus.
        cProfile.run("[x for x in range(1500)]")
 
 Zeitmessung in Jupyter / IPython
-------------------------------
+--------------------------------
 
 IPython (einschließlich Jupyter-Notebooks) verfügt über zwei magische Befehle zur Messung der Ausführungszeit.
 

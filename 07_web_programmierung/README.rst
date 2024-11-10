@@ -14,13 +14,13 @@ Material
    :maxdepth: 1
 
    playwright.md
-   README.md
+   tasks.md
 
 
 Links
 -----
 
-- [httpx Bibliothek](https://www.python-httpx.org/)
-- [FastAPI web server](https://fastapi.tiangolo.com/)
-- [Scrapy](https://scrapy.org/) - very powerful scraping tool
-- [Playwright](https://playwright.dev/python/docs/intro) - web testing library
+- `httpx Bibliothek <https://www.python-httpx.org/>`__
+- `FastAPI web server <https://fastapi.tiangolo.com/>`__
+- `Scrapy <https://scrapy.org/) - very powerful scraping too>`__
+- `Playwright <https://playwright.dev/python/docs/intro) - web testing librar>`__

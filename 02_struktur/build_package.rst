@@ -5,7 +5,7 @@ Baue ein Python-Paket
 In dieser Übung verwenden wir `uv <https://docs.astral.sh/uv/>`__ um ein Python-Programm zu paketieren.
 Du kannst das Programm aus dem vorigen Kapitel dafür verwenden.
 
-Schritt 1: installation
+Schritt 1: Installation
 -----------------------
 
 Installiere uv mit:
