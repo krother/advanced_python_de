@@ -1,25 +1,41 @@
 
-### Exercise 4: Type annotations
+Code aufräumen
+==============
 
-Add type annotations to the function arguments and return values.
-Also add type annotations for the most important variables.
+Übung 1: Typannotationen
+------------------------
 
-Re-run the code and make sure it still works.
+Füge Typannotationen zu den Argumenten und Rückgabewerten der Funktionen im Programm aus dem ersten Kapitel hinzu. Annotiere auch die wichtigsten Variablen mit Typen.
 
-*Does the program also work if you deliberately use a **wrong** type?
+Führe den Code erneut aus und stelle sicher daß er funktioniert.
 
-#### Exercise 5: Type checker
+*Funktioniert das Progamm auch wenn du **falsche** Typen eingibst?*
 
-Install a Python type checker with
+Beispiel
+++++++++
 
-    pip install mypy
+.. literalinclude:: type_annotations.py
 
-Then check the types with 
+Übung 2: Typen prüfen
+---------------------
+
+Installiere einen Type Checker für Python:
+
+::
+    
+    python -m pip install mypy
+
+Prüfe anschließend die Typen mit:
+
+::
 
     mypy twenty_questions.py
 
-### Exercise 6: Code linter
+Übung 3: Code Linter
+--------------------
 
-Clean up the code by running:
+Säubere den Code mit:
+
+::
 
     black twenty_questions.py

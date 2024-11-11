@@ -17,6 +17,7 @@ Aufgabe
 .. toctree::
    :maxdepth: 1
 
+   black_mypy.rst
    build_package.rst
 
 
