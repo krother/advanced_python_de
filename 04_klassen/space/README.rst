@@ -3,6 +3,16 @@ Refactor Space
 
 **Goal: refactor code using classes**
 
+Files
+~~~~~
+
+- :download:`cli.py`
+- :download:`game.py`
+- :download:`location.py`
+- :download:`mini_galaxy.json`
+- :download:`galaxy_EN.json`
+
+
 Excercise 1: Pandas go to space
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

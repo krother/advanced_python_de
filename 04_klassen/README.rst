@@ -19,6 +19,14 @@ Aufbau von Klassen
 
 .. figure:: komposition.png
 
+Beispiele
+---------
+
+- :download:`space/cli.py`
+- :download:`space/game.py`
+- :download:`space/location.py`
+- :download:`space/mini_galaxy.json`
+
 Aufgaben
 --------
 
