@@ -15,6 +15,8 @@ Aufbau von Klassen
 
 .. figure:: klassen.png
 
+----
+
 .. figure:: komposition.png
 
 Aufgaben

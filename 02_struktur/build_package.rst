@@ -66,3 +66,23 @@ Erstelle aus dem Quelltext das Distributionsformat:
 ::
 
     uv build
+
+Alle Dateien im Paketverzeichnise werden automatisch in den build aufgenommen.
+Sie finden sich im Verzeichnis ``dist/``
+
+Schritt 6: Paket installieren
+-----------------------------
+
+Das neu erstellte Paket ist nun mit ``pip`` aus der Datei installierbar:
+
+::
+
+    pip install dist/pandas_go_to_space-1.1.0-py3-none-any.whl
+
+und
+
+::
+
+    python
+    
+    >>> import space_game
