@@ -1,10 +1,10 @@
-Refactor Space
-==============
+Refaktorisieren
+===============
 
-**Goal: refactor code using classes**
+**In dieser Übung refaktorisierst du Code mit Klassen.**
 
-Files
-~~~~~
+Dateien
+~~~~~~~
 
 - :download:`cli.py`
 - :download:`game.py`
@@ -12,104 +12,94 @@ Files
 - :download:`mini_galaxy.json`
 - :download:`galaxy_EN.json`
 
+Übung 1: Pandas im Weltall
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Excercise 1: Pandas go to space
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Im Ordner für diese Sitzung findest du das Spiel **Pandas go to Space**.
+Dies ist ein Python-Abenteuer, das ich für Programmierkurse entwickelt habe.
 
-In the folder for this session, you find the game **pandas go to
-space**. This is a Python adventure I designed for programming courses.
-
-Start the game by running the text-based interface in ``cli.py`` with
+Starte das Spiel, indem du die textbasierte Benutzeroberfläche in ``cli.py`` ausführst mit
 
 ::
 
    python cli.py
 
-Exercise 2: Code review
-~~~~~~~~~~~~~~~~~~~~~~~
+Übung 2: Code Review
+~~~~~~~~~~~~~~~~~~~~
 
-Read through the three Python files. Depending on your experience, focus
-on:
+Untersuche die drei Python-Dateien.
+Je nach Erfahrung, schaue auf:
 
--  ``cli.py`` (beginner)
--  ``game.py`` (intermediate)
--  ``location.py`` (advanced)
+-  ``cli.py`` (einfach)
+-  ``game.py`` (mittel)
+-  ``location.py`` (fortgeschritten)
 
-You may also want to inspect the smaller JSON file to see the game data.
+Du kannst auch die kleinere JSON-Datei inspizieren, um die Spieldaten anzusehen.
 
-Note sections in the code that you would like to know more about. Also,
-think about whether there are parts of the code that you find
-problematic or hard to read.
+Markiere Abschnitte im Code, über die du mehr erfahren möchtest. Überlege außerdem, ob es Teile im Code gibt, die du problematisch oder schwer lesbar findest.
 
-Exercise 3a: Traditional Python class
+Übung 3: Traditionelle Python-Klassen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Examine the class ``game.LoadCargoCommand``. Find the following:
+Untersuche die Klasse ``game.LoadCargoCommand``. Finde Folgendes heraus:
 
--  the class name
--  the attributes and their types
--  the methods
--  the self attribute
--  an attribute that is accessed within the class
--  an attribute or method that is accessed from outside the class
+- den Klassennamen
+- die Attribute und deren Typen
+- die Methoden
+- das self-Attribut
+- ein Attribut, das innerhalb der Klasse aufgerufen wird
+- ein Attribut oder eine Methode, die von außerhalb der Klasse aufgerufen wird
 
-Exercise 3b: Pydantic class
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Übung 4: Klassen mit pydantic
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Examine the class ``location.Location``. Find the following:
+Untersuche die Klasse ``location.Location``.
+Vergleiche den Aufbau mit der vorigen Übung.
 
--  the class name
--  the attributes and their types
--  the methods
--  the self attribute
--  an attribute that is accessed within the class
--  an attribute or method that is accessed from outside the class
+Übung 5: Erstelle eine Klasse
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Exercise 4: Create a class
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-In this exercise, we will get rid of the global variables. In
-``game.py``, create a new class ``Game`` that contains three attributes:
+Es wird Zeit sich von den globalen Variablen zu trennen. 
+Erstelle eine neue Klasse ``Game`` in ``game.py`` mit drei Attributen:
 
 -  location
 -  cargo
 -  crew
 
-Create a global instance of ``Game`` right after the definition:
+Erstelle eine globale Instanz von ``Game`` gleich nach der Definition:
 
 ::
 
    game = Game(...)
 
-Change the code to use the instance, e.g. \ ``game.cargo`` instead or
-``cargo`` wherever applicable.
+Ändere den Code,  so daß die Instanz verwendet wird, z.B. ``game.cargo``
+anstelle von ``cargo``.
 
-Run the program and make sure it works.
+Führe das Programm aus und stelle sicher daß es funktioniert.
 
-Exercise 5: Create a method
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Move the function ``is_solved()`` into the ``Game`` class:
-
--  indent it so that it is inside the block of the class
--  add the ``self`` parameter
--  change references to ``game.`` to ``self.``
--  change the function call ``is_solved()`` to ``game.is_solved()``
-
-Make sure the program still works.
-
-Exercise 6: Object Composition
+Übung 5: Erstelle eine Methode
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Where do you have composition in the new ``Game`` class? Wouldn’t it be
-easier to merge the code from all classes in one?
+Verschiebe die Funktion ``is_solved()`` in die ``Game``-Klasse:
 
-Discuss why composition is important.
+-  rücke sie so ein, dass sie sich im Block der Klasse befindet
+-  füge den Parameter ``self`` hinzu
+-  ändere Verweise von ``game.`` zu ``self.``
+-  ändere den Funktionsaufruf ``is_solved()`` zu ``game.is_solved()``
 
-Exercise 7: Inheritance and Polymorphism
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Stelle sicher, dass das Programm weiterhin funktioniert.
 
-Create a superclass ``Command``:
+Übung 6: Objektkomposition
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Wo gibt es Komposition in der neuen Game-Klasse? Wäre es nicht einfacher, den Code aller Klassen zu einer zusammenzufassen?
+
+Diskutiere, warum Komposition wichtig ist.
+
+Übung 7: Vererbung und Polymorphismus
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Erstelle eine Superklasse ``Command``:
 
 ::
 
@@ -124,8 +114,8 @@ Create a superclass ``Command``:
        def executed(self):
            pass
 
-Now adjust the other types of commands to inherit the new class. If you
-want to use an inherited method, use in the child classes:
+Verändere die übrigen Kommandos, so dass sie die neue Klasse verwenden.
+Du kannst in den Subklassen geerbte Methoden verwenden:
 
 ::
 
@@ -133,11 +123,11 @@ want to use an inherited method, use in the child classes:
        super().__init__(self, name)
        ...
 
-Exercise 8: Static methods
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+Übung 8: Statische Methoden
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Try making the three ``execute()`` methods static by adding the
-``staticmethod`` decorator and removing the ``self`` parameter:
+Deklariere die Methode ``execute()`` als statisch, indem  du den
+Dekorator ``staticmethod`` hinzufügst und den Parameter ``self`` wegläßt:
 
 ::
 
@@ -145,4 +135,4 @@ Try making the three ``execute()`` methods static by adding the
    def execute():
        ...
 
-For which of the methods does it work?
+Bei welchen der anderen Methoden funktioniert das?
