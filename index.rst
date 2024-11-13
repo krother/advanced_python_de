@@ -24,6 +24,7 @@ Inhalt
    08_debuggen/README.rst
    09_testautomatisierung/README.rst
    10_parallele_prozessierung/README.rst
+   05_generatoren/dekoratoren/decorators.rst
    links.md
 
 
