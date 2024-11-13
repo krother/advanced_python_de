@@ -5,7 +5,7 @@
 
 ### Übung 1: Den Baum abschreiten
 
-Verwende ein kleines Python-Programm `traverse.py`, das die Datei `question.json` aus der Aufgabe **zwanzig Fragen** einliest und die Baumstruktur durchläuft.
+Verwende ein kleines Python-Programm [traverse.py](traverse.py), das die Datei `question.json` aus der Aufgabe **zwanzig Fragen** einliest und die Baumstruktur durchläuft.
 Das Programm sollte eine Liste mit allen Fragen und Antworten erstellen.
 
 **Sortiere die Zeilen in der Funktion `traverse()`.**
