@@ -23,7 +23,7 @@ Du kannst fortlaufende Nummerierungen für Fragen und Antworten verwenden.
 ### Übung 3: Schreibe Tabellen
 
 Verwende die Bibliothek `pandas`, um die Frage/Antwort-Daten in CSV-Dateien und Excel-Tabellen zu lesen und zu schreiben.
-Der bereitgestellte Code-Schnipsel :download:`write_csv.py` bietet einen Ausgangspunkt.
+Der bereitgestellte Code-Schnipsel [write_csv.py](write_csv.py) bietet einen Ausgangspunkt.
 
 Ersetze `csv` durch `excel`, um Tabellen zu lesen und zu schreiben.
 
@@ -31,7 +31,7 @@ Ersetze `csv` durch `excel`, um Tabellen zu lesen und zu schreiben.
 
 Schreibe das **pandas-DataFrame** mit Hilfe der Methode `to_xml()` in eine XML-Datei.
 
-Verwende den Code-Schnipsel :download:`parse_xml.py`, um alle Fragen in den XML-Daten zu finden, die eines der folgenden Wörter enthalten:
+Verwende den Code-Schnipsel [parse_xml.py](parse_xml.py), um alle Fragen in den XML-Daten zu finden, die eines der folgenden Wörter enthalten:
 
     bird
     fly
@@ -46,7 +46,7 @@ Schreibe auch die Liste, die aus Übung 1 resultiert, in eine JSON-Datei. Vergle
 
 ### Übung 6: SQL
 
-Verwende das Code-Schnipsel :download:`read_write_sql.py`, um eine Tabelle in eine SQLite-Datenbank zu schreiben (außer der SQLAlchemy-Bibliothek ist keine Installation erforderlich).
+Verwende das Code-Schnipsel [read_write_sql.py](read_write_sql.py), um eine Tabelle in eine SQLite-Datenbank zu schreiben (außer der SQLAlchemy-Bibliothek ist keine Installation erforderlich).
 
 Schreibe eine SQL-Abfrage, um Fragen/Antworten mit Schlüsselwörtern deiner Wahl zu finden.
 
