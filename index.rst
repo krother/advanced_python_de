@@ -25,6 +25,7 @@ Inhalt
    09_testautomatisierung/README.rst
    10_parallele_prozessierung/README.rst
    05_generatoren/dekoratoren/decorators.rst
+   11_weiteres/mandelbrot/profiling.rst
    links.md
 
 
