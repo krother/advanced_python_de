@@ -1,5 +1,5 @@
-Decorators
-==========
+Dekoratoren
+===========
 
 m Allgemeinen sind **Dekoratoren** Funktionen, die andere Funktionen erweitern. Genauer gesagt umhüllt ein Dekorator eine Funktion, um einem Funktionsaufruf zusätzliches Verhalten hinzuzufügen. In den folgenden Beispielen werden wir eine Python-Funktion dekorieren, die Fibonacci-Zahlen berechnet.
 
