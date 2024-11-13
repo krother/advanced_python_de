@@ -43,17 +43,3 @@ Vergleiche die Ausgabe mit
 .. code:: ipython3
 
     %timeit
-
-
-C-Erweiterungen
----------------
-
-Untersuche, wie eine Python-C-Schnittstelle aussieht.
-Sieh dir den Code unter `https://github.com/biopython/biopython/blob/master/Bio/PDB/ <https://github.com/biopython/biopython/blob/master/Bio/PDB/>`__ an.
-
-Insbesondere die folgenden Dateien:
-
-- NeighborSearch.py
-- kdtrees.c
-- setup.py (im Hauptverzeichnis)
-- README.md (im Hauptverzeichnis)
