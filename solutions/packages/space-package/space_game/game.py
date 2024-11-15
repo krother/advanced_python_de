@@ -1,18 +1,17 @@
-from location import Location, Puzzle, create_galaxy
+from space_game.location import Location, Puzzle, create_galaxy
 
 
-class LoadCargoCommand:                     # Name
+class LoadCargoCommand:  # Name
+    cmd = "load cargo"  # Klassenvariable
 
-    cmd = "load cargo"                     # Klassenvariable
-
-    def __init__(self, resource: str):      # Konstruktor
-        self.name = f"collect {resource}"   # Attribut, Instanzvariable
+    def __init__(self, resource: str):  # Konstruktor
+        self.name = f"collect {resource}"  # Attribut, Instanzvariable
         self.resource = resource
 
-    def execute(self) -> str:               # Methode
+    def execute(self) -> str:  # Methode
         """pick up items"""
         global cargo  # FIXME!!!
-        cargo = self.resource               # self: Referenz auf Instanz 
+        cargo = self.resource  # self: Referenz auf Instanz
         return f"your ship loaded {self.resource}"
 
 
@@ -73,9 +72,8 @@ def solve_puzzle() -> str:
     global cargo
     puzzle = location.puzzle
     assert puzzle
-    if (
-        (puzzle.require_good is None or (cargo == puzzle.require_good))
-        and (puzzle.require_crew_member is None or (puzzle.require_crew_member in crew))
+    if (puzzle.require_good is None or (cargo == puzzle.require_good)) and (
+        puzzle.require_crew_member is None or (puzzle.require_crew_member in crew)
     ):
         # player triggers the effect of a puzzle
         if puzzle.deactivate:

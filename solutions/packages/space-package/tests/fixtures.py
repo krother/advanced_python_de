@@ -15,9 +15,9 @@ TEST_GALAXY = BASE_PATH / "test_data/mini_galaxy.json"
 
 @pytest.fixture(scope="module")
 def galaxy():
-    print("setup galaxy")    
+    print("setup galaxy")
     yield create_galaxy(TEST_GALAXY)
-    print("tear down galaxy")    
+    print("tear down galaxy")
 
     # geht auch
-    #return create_galaxy(TEST_GALAXY)
+    # return create_galaxy(TEST_GALAXY)

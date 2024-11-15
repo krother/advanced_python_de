@@ -14,7 +14,7 @@ from pydantic import BaseModel
 
 # provides the absolute path to the current directory
 # (useful to load non-python static files)
-#BASE_PATH = os.path.split(__file__)[0]
+# BASE_PATH = os.path.split(__file__)[0]
 BASE_PATH = Path(__file__).parent
 
 DEFAULT_GALAXY = BASE_PATH / "resources/galaxy_EN.json"
@@ -83,9 +83,7 @@ def create_galaxy(filename: str = DEFAULT_GALAXY) -> dict[str, Location]:
                     target = loc2
                     break
             if target is None:
-                raise ValueError(
-                    f"connection not found when building galaxy for '{targetname}'"
-                )
+                raise ValueError(f"connection not found when building galaxy for '{targetname}'")
             location.add_connection(target)
 
     return galaxy
