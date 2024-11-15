@@ -26,8 +26,23 @@ Inhalt
    10_parallele_prozessierung/README.rst
    05_generatoren/dekoratoren/decorators.rst
    11_weiteres/mandelbrot/profiling.rst
+   11_weiteres/sierpinski/sierpinski.rst
    links.md
 
+Code aus der Schulung
+---------------------
+
+- :download:`solutions/comprehensions.py`
+- :download:`solutions/decorators.py`
+- :download:`solutions/generators.py`
+- :download:`solutions/copy_deepcopy.py`
+- :download:`solutions/elephants.py`
+- :download:`solutions/magic_mock.py`
+- `Vollständiger Code auf GitHub <https://github.com/krother/advanced_python_de>`__
+
+.. hint::
+
+   Über GitHub findest du auch die Paketstruktur von `space_game` mit Tests und Mock.
 
 Autor
 -----
