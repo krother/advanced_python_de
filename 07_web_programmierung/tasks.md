@@ -1,4 +1,4 @@
-# Session 07: Web Programming
+# FastAPI Server
 
 In this session, you will connect a web interface to the `pandas_go_to_space` game.
 
@@ -27,7 +27,7 @@ Try out one of the endpoints (use the **try it out button***).
 
 ### Step 4: Code review
 
-Read the code in `space_game/app.py`. Find out:
+Read the code in [space_game/app.py](space_game/app.py). Find out:
 
 - how are the URLs of API endpoints defined?
 - how is the data structure of the JSON output defined?
@@ -66,7 +66,7 @@ The commands are trickier. To connect them you need to:
 ### Step 8: Edit template
 
 One of the text fields in the HTML page contains a placeholder.
-Edit the file `templates/game.html` to insert the description of a location.
+Edit the file [templates/game.html](templates/game.html) to insert the description of a location.
 
 ### Step 9: A bigger galaxy
 

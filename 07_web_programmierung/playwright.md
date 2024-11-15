@@ -1,5 +1,7 @@
 
-### Exercise 5: Web Scraping
+# Web Scraping
+
+### Exercise 1: Download
 
 Use the `httpx` module to download a Wikipedia page and save it to a file.
 
@@ -8,14 +10,14 @@ Use the `httpx` module to download a Wikipedia page and save it to a file.
     print(p.status_code)
     print(p.text)
 
-### Exercise 6: Parse HTML
+### Exercise 2: Parse HTML
 
 Read the saved HTML page and parse it using Beautiful Soup.
 Use the code in `example_bs4.py` as a starting point.
 
 Discuss how to use documentation of Python modules.
 
-### Exercise 7: Web front-end testing
+### Exercise 3: Web front-end testing
 
 Remote-control your browser. Run from the command line:
 
