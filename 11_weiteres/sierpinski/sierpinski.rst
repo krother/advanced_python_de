@@ -3,7 +3,7 @@ Das Sierpinski-Dreieck
 
 **🎯 Konstruiere ein Sierpinski-Dreieck mit Hilfe eines zellulären Automaten.**
 
-.. figure:: ../images/sierpinski.png
+.. figure:: sierpinski.png
 
 Verwende die folgenden Regeln:
 
