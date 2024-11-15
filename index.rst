@@ -32,6 +32,7 @@ Inhalt
 Code aus der Schulung
 ---------------------
 
+- :download:`ergebnis_tabelle.xlsx`
 - :download:`solutions/comprehensions.py`
 - :download:`solutions/decorators.py`
 - :download:`solutions/generators.py`
